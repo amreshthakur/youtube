@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyAr9qw5W5DHKB2i-vSdNsI6hv_YQBqWBas';
+const API_KEY = 'AIzaSyDtJ4RaXg1HZSyh7oSoGTiF7AJKZI1sHtE';
 const CHANNEL_ID = 'UCl2IeC8anS0ae_nOYYkjSFg';
 const MAX_RESULTS = 10;
 
@@ -90,4 +90,4 @@ function shrinkHeader() {
   } else {
     header.classList.remove("shrink");
   }
-}
+};
