@@ -39,6 +39,7 @@ body {
     padding: 20px;
     color: white;
     text-align: center;
+    z-index: 1;
   }
   
   .videos {
