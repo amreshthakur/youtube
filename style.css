@@ -69,7 +69,20 @@ body {
     height: 450px;
   }
   
-  .close, .fullscreen {
+  .close {
+    position: absolute;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 1000;
+    cursor: pointer;
+  }
+  .close {
+    right: 15px;
+    top: 0;
+  }
+  
+
+  .fullscreen{
     position: absolute;
     color: #000000;
     font-size: 50px;
@@ -77,11 +90,7 @@ body {
     cursor: pointer;
   }
   
-  .close {
-    right: 15px;
-    top: 15px;
-  }
-  
+
   .fullscreen {
     display: flex;
     justify-content: center;
@@ -94,8 +103,13 @@ body {
     height: 10%;
   }
   
-  .close:hover, .close:focus, .fullscreen:hover, .fullscreen:focus {
-    color: #392e2e;
+  .close:hover, .close:focus {
+    color: #f5efef;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .fullscreen:hover, .fullscreen:focus{
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
   }

@@ -1,6 +1,6 @@
 const API_KEY = 'AIzaSyAr9qw5W5DHKB2i-vSdNsI6hv_YQBqWBas';
 const CHANNEL_ID = 'UCl2IeC8anS0ae_nOYYkjSFg';
-const MAX_RESULTS = 6;
+const MAX_RESULTS = 10;
 
 function createVideoElement(video) {
   const videoWrapper = document.createElement('div');
