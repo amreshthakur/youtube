@@ -71,8 +71,8 @@ body {
   
   .close, .fullscreen {
     position: absolute;
-    color: #fff;
-    font-size: 30px;
+    color: #000000;
+    font-size: 50px;
     font-weight: bold;
     cursor: pointer;
   }
@@ -83,12 +83,19 @@ body {
   }
   
   .fullscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 14px 0;
     right: 15px;
+    margin: 0 -10px 0 0;
     bottom: 15px;
+    width: 30%;
+    height: 10%;
   }
   
   .close:hover, .close:focus, .fullscreen:hover, .fullscreen:focus {
-    color: #bbb;
+    color: #392e2e;
     text-decoration: none;
     cursor: pointer;
   }
