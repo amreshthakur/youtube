@@ -5,7 +5,36 @@ body {
     color: #333;
   }
   
+
   header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  header.shrink {
+    height: 12px; /* Adjust the height as needed */
+    line-height: 15px; /* Center the text vertically */
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  header.shrink h1 {
+    font-size: 1.5em; /* Adjust the font size as needed */
+    padding: 0 20px; /* Adjust the padding to center the text */
+  }
+  
+  main {
+    padding-top: 100px; /* Adjust this value according to the header height */
+  }  header {
     background-color: #282c34;
     padding: 20px;
     color: white;
@@ -17,6 +46,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    margin-top: 106px;
   }
   
   .video {
@@ -78,7 +108,7 @@ body {
   }
   .close {
     right: 15px;
-    top: 0;
+    top: 38;
   }
   
 

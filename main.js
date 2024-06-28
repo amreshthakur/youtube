@@ -75,3 +75,19 @@ function setupModal() {
 }
 
 fetchVideos();
+
+
+
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {
+  shrinkHeader();
+};
+
+function shrinkHeader() {
+  const header = document.getElementById("header");
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    header.classList.add("shrink");
+  } else {
+    header.classList.remove("shrink");
+  }
+}
